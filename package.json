@@ -1,0 +1,28 @@
+{
+  "name": "simple-host-config",
+  "version": "1.0.0",
+  "description": "Simple tool to handle separated hosts files",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./lib/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dick-clark/simple-host-config"
+  },
+  "preferGlobal": true,
+  "author": {
+    "name": "Dick Clark",
+    "email": "dick@creativeblank.co.uk",
+    "url": "http://github.com/dick-clark"
+  },
+  "license": "MIT",
+  "bin": {
+    "simple-host-config": "bin/simple-host-config"
+  },
+  "dependencies": {
+    "node-dir": "^0.1.8",
+    "stream-buffers": "^2.2.0",
+    "yargs": "^3.18.0"
+  }
+}
