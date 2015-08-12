@@ -4,7 +4,7 @@
   "description": "Simple tool to handle separated hosts files",
   "main": "index.js",
   "scripts": {
-    "postinstall": "sudo -u `whoami` node ./lib/postinstall.js"
+    "postinstall": "sudo -u $(whoami) node ./lib/postinstall.js"
   },
   "repository": {
     "type": "git",
