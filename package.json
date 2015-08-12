@@ -4,7 +4,7 @@
   "description": "Simple tool to handle separated hosts files",
   "main": "index.js",
   "scripts": {
-    "postinstall": "sudo node ./lib/postinstall.js"
+    "postinstall": "su && node ./lib/postinstall.js && exit"
   },
   "repository": {
     "type": "git",
