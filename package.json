@@ -22,7 +22,6 @@
   },
   "dependencies": {
     "node-dir": "^0.1.8",
-    "stream-buffers": "^2.2.0",
-    "yargs": "^3.18.0"
+    "stream-buffers": "^2.2.0"
   }
 }
